@@ -8,6 +8,7 @@ This is a countdown timer that I created using ReactJS and Bootstrap. This count
 ### Tools used
 
 :heavy_check_mark: &nbsp;&nbsp; Bootstrap &nbsp;
+:heavy_check_mark: &nbsp;&nbsp; Font Awesome &nbsp;
 :heavy_check_mark: &nbsp;&nbsp; ReactJS
 
 
