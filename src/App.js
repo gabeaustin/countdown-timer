@@ -1,9 +1,16 @@
+import React, { useState } from "react";
+
 import './App.css';
 // import { faHome, faClock } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const App = () => {
+    const [timerDays, setTimerDays] = useState("00");
+    const [timerHours, setTimerHours] = useState("00");
+    const [timerMinutes, setTimerMinutes] = useState("00");
+    const [timerSeconds, setTimerSeconds] = useState("00");
+
   return (
     <div className="container">
         <section className="timer-container">
