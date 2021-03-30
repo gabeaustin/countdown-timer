@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 import './App.css';
 // import { faHome, faClock } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +10,20 @@ const App = () => {
     const [timerHours, setTimerHours] = useState("00");
     const [timerMinutes, setTimerMinutes] = useState("00");
     const [timerSeconds, setTimerSeconds] = useState("00");
+
+    let interval = useRef();
+
+    const startTimer = () => {
+        const countdownDate = new("April 16, 2021 00:00:00").getTime();
+
+        interval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+        }, 1000);
+    };
 
   return (
     <div className="container">
