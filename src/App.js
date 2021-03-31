@@ -31,9 +31,15 @@ const App = () => {
                 setTimerDays(days);
                 setTimerHours(hours);
                 setTimerMinutes(minutes);
-                setTimerSeconds(seconds);
+                setTimerSeconds(seconds);    
+            };
+
+            // NEED HELP HERE
+            if (setTimerSeconds(seconds) < 10) {
+                setTimerSeconds(`0${seconds}`);
             };
         }, 1000);
+
     };
 
     // componendDidMount
@@ -86,10 +92,11 @@ const App = () => {
                     <div className="col-md-3"></div>
                 </div>
             </section>
+            
+            <footer>
+                <div>HAKJDKLAJFKLAJLDJL;JD</div> {/* put link to demo call here */}
+            </footer>
         </section>
-        <footer>
-            <div>HAKJDKLAJFKLAJLDJL;JD</div> {/* put link to demo call here */}
-        </footer>
     </div>
   );
 }
