@@ -28,18 +28,32 @@ const App = () => {
                 clearInterval(interval.current);
             } else {
                 // update timer
-                setTimerDays(days);
-                setTimerHours(hours);
-                setTimerMinutes(minutes);
-                setTimerSeconds(seconds);    
-            };
+                if (days < 10) {
+                    setTimerDays(`0${days}`);
+                } else {
+                    setTimerDays(days);    
 
-            // NEED HELP HERE
-            if (setTimerSeconds(seconds) < 10) {
-                setTimerSeconds(`0${seconds}`);
+                };
+
+                if (hours < 10) {
+                    setTimerHours(`0${hours}`);
+                } else {
+                    setTimerHours(hours);
+                };
+
+                if (minutes < 10) {
+                    setTimerMinutes(`0${minutes}`);
+                } else {
+                    setTimerMinutes(minutes);
+                };
+                
+                if (seconds < 10) {
+                    setTimerSeconds(`0${seconds}`);
+                } else {
+                    setTimerSeconds(seconds);
+                };
             };
         }, 1000);
-
     };
 
     // componendDidMount
@@ -92,7 +106,7 @@ const App = () => {
                     <div className="col-md-3"></div>
                 </div>
             </section>
-            
+
             <footer>
                 <div>HAKJDKLAJFKLAJLDJL;JD</div> {/* put link to demo call here */}
             </footer>
