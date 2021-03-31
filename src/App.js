@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
-import './App.css';
-// import { faHome, faClock } from "@fortawesome/free-solid-svg-icons";
+import "./App.css";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -53,11 +51,11 @@ const App = () => {
                 <div>
                     <span>
                         <FontAwesomeIcon icon={faClock} className="timer-icon" />
-                        <h2>Countdown Timer</h2>
-                        <p>Countdown to Demo Day</p>
+                        <h2 className="countdownTimer">Demo Day Is Coming</h2>
+                        <p>Countdown to Innovate Birmingham's Cohort 13 Spring Demo Day</p>
                     </span>
                 </div>
-                <div>
+                <div className="border border-white">
                     <section>
                         <p>{ timerDays }</p>
                         <p><small>Days</small></p>
@@ -80,6 +78,9 @@ const App = () => {
                 </div>
             </section>
         </section>
+        <footer>
+            <div>HAKJDKLAJFKLAJLDJL;JD</div> {/* put link to demo call here */}
+        </footer>
     </div>
   );
 }

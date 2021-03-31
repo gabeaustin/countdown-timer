@@ -1,15 +1,6 @@
+/* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Quicksand", sans-serif;
-    font-size: 100%;
-}
 
 .timer-container {
     background-image: url("./images/timer-blk-guy.jpeg");
@@ -21,6 +12,10 @@ body {
     height: 100vh;
 }
 
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 100%;
+}
 .timer {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -39,6 +34,7 @@ body {
 
 .timer-icon {
     font-size: 8em;
+    transform: rotateY(180deg);
 }
 
 h2 {
@@ -47,12 +43,12 @@ h2 {
 }
 
 .timer div:first-child p {
-    color: #f8f8f8
+    /* color: #f8f8f8; */
+    color: red; /* using for testing only*/
 }
 
 .timer div:last-child {
-    border: 1px solid #fff;
-    border-radius: 3px;
+    border-radius: 1em;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 3em;
@@ -60,11 +56,21 @@ h2 {
     text-align: center;
 }
 
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 section p:first-child, .timer div:last-child span {
     font-size: 3em;
 }
 
+*/
+
 /* media query for small screen devices */
+/*
 @media screen and (max-width: 480px) {
     .timer div:last-child {
         margin-left: 2em;
@@ -72,3 +78,5 @@ section p:first-child, .timer div:last-child span {
         padding: 3em;
     }
 }
+
+*/
