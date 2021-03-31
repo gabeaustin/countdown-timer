@@ -45,7 +45,7 @@ const App = () => {
     });
 
   return (
-    <div className="container">
+    <div>
         <section className="timer-container">
             <section className="timer">
                 <div>

@@ -56,15 +56,15 @@ h2 {
     text-align: center;
 }
 
+section p:first-child, .timer div:last-child span {
+    font-size: 3em;
+}
+
 /*
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-section p:first-child, .timer div:last-child span {
-    font-size: 3em;
 }
 
 */
