@@ -8,16 +8,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
 }
 
 body {
     font-family: "Quicksand", sans-serif;
     font-size: 100%;
 }
+
 .timer {
-    background-color: rgba(0, 0, 0, 0.5);
+    border: solid pink 2px;
+    background-color: rgba(0, 0, 0, 0.60);
+    /* background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex: column;
     align-items: center;
@@ -25,40 +28,97 @@ body {
     padding-bottom: 7em;
     padding-top: 2em;
     width: 100%;
-    height: 100%;
+    height: 100%; */
 }
 
-.timer div:first-child {
+/* .timer div:first-child { */
+.timerIconAndText {
     text-align: center;
+    color: #f8f8f8;
 }
 
+/* dont change */
 .timer-icon {
     font-size: 8em;
     transform: rotateY(180deg);
 }
 
-h2 {
+/* h2 {
     font-weight: 600;
     margin-bottom: 0.5em;
+} */
+
+
+.timerIconAndText {
+    
+    /* border-radius: 1em;
+    display: grid;
+    /* grid-template-columns: repeat(7, 1fr); */
+    /* margin-top: 3em; */
+    /* padding: 3em; */
+    /* text-align: center; */
+
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px; */
+
 }
 
-.timer div:first-child p {
-    /* color: #f8f8f8; */
-    color: red; /* using for testing only*/
+.timerDaysCountdownContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.timer div:last-child {
+.timerDaysCountdown {
+    margin: auto;
+}
+
+
+.timerDaysCountdown {
     border-radius: 1em;
+}
+
+
+.timerDaysCountdown p:first-child {
+    font-size: 3em;
+    color: red;
+}
+    /* color: green;
+    background-color: red;
+    font-size: 3em;
+    display: flex;
+} */
+
+.timerDaysCountdown p:last-child {
+    font-size: 1.5em;
+    display: flex;
+}
+
+/* .timer div:last-child {
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); */
+    /* border-radius: 1em;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 3em;
     padding: 3em;
     text-align: center;
-}
 
-section p:first-child, .timer div:last-child span {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; */
+/* } */
+
+/* section p:first-child, .timer div:last-child span {
     font-size: 3em;
-}
+} */
 
 /*
 * {

@@ -48,33 +48,42 @@ const App = () => {
     <div>
         <section className="timer-container">
             <section className="timer">
-                <div>
-                    <span>
-                        <FontAwesomeIcon icon={faClock} className="timer-icon" />
-                        <h2 className="countdownTimer">Demo Day Is Coming</h2>
-                        <p>Countdown to Innovate Birmingham's Cohort 13 Spring Demo Day</p>
-                    </span>
+                <div className="row">
+                    <div className="col-md-4"></div>
+                    <div className="timerIconAndText border border-warning justify-content-md-center pt-5 col-md-4">
+                        <span>
+                            <FontAwesomeIcon icon={faClock} className="timer-icon" />
+                            <h2 className="countdownTimer">Demo Day Is Coming</h2>
+                            <p>Countdown to Innovate Birmingham's Cohort 13 Spring Demo Day</p>
+                        </span>
+                    </div>
+                    <div className="col-md-4"></div>
                 </div>
-                <div className="border border-white">
-                    <section>
-                        <p>{ timerDays }</p>
-                        <p><small>Days</small></p>
-                    </section>
-                    <span>:</span>
-                    <section>
-                        <p>{ timerHours }</p>
-                        <p><small>Hours</small></p>
-                    </section>
-                    <span>:</span>
-                    <section>
-                        <p>{ timerMinutes }</p>
-                        <p><small>Minutes</small></p>
-                    </section>
-                    <span>:</span>
-                    <section>
-                        <p>{ timerSeconds }</p>
-                        <p><small>Seconds</small></p>
-                    </section>
+
+                <div className="timerDaysCountdownContainer row border border-default">
+                    <div className="col-md-3"></div>
+                    <div className="timerDaysCountdown border border-white pt-2 col-md-6 mx-auto">
+                        <section className="mx-auto">
+                            <p>{ timerDays }</p>
+                            <p>Days</p>
+                        </section>
+                        <span>:</span>
+                        <section>
+                            <p>{ timerHours }</p>
+                            <p>Hours</p>
+                        </section>
+                        <span>:</span>
+                        <section>
+                            <p>{ timerMinutes }</p>
+                            <p>Minutes</p>
+                        </section>
+                        <span>:</span>
+                        <section>
+                            <p>{ timerSeconds }</p>
+                            <p>Seconds</p>
+                        </section>
+                    </div>
+                    <div className="col-md-3"></div>
                 </div>
             </section>
         </section>
