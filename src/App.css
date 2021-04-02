@@ -44,12 +44,16 @@ body {
     border-radius: 1em;
 }
 
-.timerDaysCountdown p:first-child {
-    font-size: 3em;
+.dateNum {
+    font-size: 5em;
     color: red;
+    border: 1px solid black;
+    margin: 0.4em;
 }
 
-.timerDaysCountdown p:last-child {
+.dateWords {
+    color: hotpink;
     font-size: 1.5em;
-    display: flex;
+    margin: 0.4em;
+    border: 1px solid yellowgreen;
 }

@@ -84,23 +84,23 @@ const App = () => {
                     <div className="col-md-3"></div>
                     <div className="timerDaysCountdown border border-white pt-2 col-md-6 d-flex p-2 bd-highlight">
                         <section className="mx-auto">
-                            <p>{ timerDays }</p>
-                            <p>Days</p>
+                            <p className="dateNum text-center">{ timerDays }</p>
+                            <div className="dateWords text-center">Days</div>
                         </section>
-                        <span>:</span>
+                        
                         <section>
-                            <p>{ timerHours }</p>
-                            <p>Hours</p>
+                            <p className="dateNum text-center">{ timerHours }</p>
+                            <div className="dateWords text-center">Hours</div>
                         </section>
-                        <span>:</span>
+                        
                         <section>
-                            <p>{ timerMinutes }</p>
-                            <p>Minutes</p>
+                            <p className="dateNum text-center">{ timerMinutes }</p>
+                            <div className="dateWords text-center">Minutes</div>
                         </section>
-                        <span>:</span>
+                        
                         <section>
-                            <p>{ timerSeconds }</p>
-                            <p>Seconds</p>
+                            <p className="dateNum text-center">{ timerSeconds }</p>
+                            <div className="dateWords text-center">Seconds</div>
                         </section>
                     </div>
                     <div className="col-md-3"></div>
