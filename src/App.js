@@ -106,15 +106,12 @@ const App = () => {
                 </div>
                 
                 <div className="buttonContainer text-center m-4">
-                    <button id="mainButton" type="button" class="btn btn-warning">Want To Attend?</button>
+                    <button id="mainButton" type="button" className="btn btn-warning btn-lg">Want To Attend?</button>
                 </div>
-                
-            </section>
-            <section>
             </section>
 
             <footer>
-                <div>HAKJDKLAJFKLAJLDJL;JD</div> {/* put link to demo call here */}
+                <div className="text-center"><a href="http://www.myboygabe.com" target="_blank">This is a Gabe A. Production</a></div> {/* put link to demo call here */}
             </footer>
         </section>
     </div>
