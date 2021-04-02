@@ -82,7 +82,7 @@ const App = () => {
 
                 <div className="timerDaysCountdownContainer row border border-default">
                     <div className="col-md-3"></div>
-                    <div className="timerDaysCountdown border border-white pt-2 col-md-6 mx-auto">
+                    <div className="timerDaysCountdown border border-white pt-2 col-md-6 d-flex p-2 bd-highlight">
                         <section className="mx-auto">
                             <p>{ timerDays }</p>
                             <p>Days</p>

@@ -8,8 +8,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    /* width: 100vw; */
-    /* height: 100vh; */
 }
 
 body {
@@ -18,17 +16,8 @@ body {
 }
 
 .timer {
-    border: solid pink 2px;
+    border: solid pink 5px;
     background-color: rgba(0, 0, 0, 0.60);
-    /* background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 7em;
-    padding-top: 2em;
-    width: 100%;
-    height: 100%; */
 }
 
 /* .timer div:first-child { */
@@ -43,100 +32,24 @@ body {
     transform: rotateY(180deg);
 }
 
-/* h2 {
-    font-weight: 600;
-    margin-bottom: 0.5em;
-} */
-
-
-.timerIconAndText {
-    
-    /* border-radius: 1em;
-    display: grid;
-    /* grid-template-columns: repeat(7, 1fr); */
-    /* margin-top: 3em; */
-    /* padding: 3em; */
-    /* text-align: center; */
-
-    /* display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px; */
-
-}
-
 .timerDaysCountdownContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
 .timerDaysCountdown {
     margin: auto;
-}
-
-
-.timerDaysCountdown {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     border-radius: 1em;
 }
-
 
 .timerDaysCountdown p:first-child {
     font-size: 3em;
     color: red;
 }
-    /* color: green;
-    background-color: red;
-    font-size: 3em;
-    display: flex;
-} */
 
 .timerDaysCountdown p:last-child {
     font-size: 1.5em;
     display: flex;
 }
-
-/* .timer div:last-child {
-    border-radius: 1em;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr); */
-    /* border-radius: 1em;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-top: 3em;
-    padding: 3em;
-    text-align: center;
-
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px; */
-/* } */
-
-/* section p:first-child, .timer div:last-child span {
-    font-size: 3em;
-} */
-
-/*
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-*/
-
-/* media query for small screen devices */
-/*
-@media screen and (max-width: 480px) {
-    .timer div:last-child {
-        margin-left: 2em;
-        margin-right: 2em;
-        padding: 3em;
-    }
-}
-
-*/
