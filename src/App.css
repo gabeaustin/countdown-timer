@@ -1,3 +1,6 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
 
@@ -50,6 +53,7 @@ body {
 .dateNum {
     font-size: 6em;
     margin: 0.4em;
+    color: #FFC108;
 }
 
 .dateWords {
@@ -59,4 +63,8 @@ body {
 
 .mainText {
     white-space: nowrap;
+}
+
+#mainButton {
+    border-radius: 0em;
 }

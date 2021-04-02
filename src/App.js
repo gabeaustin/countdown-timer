@@ -104,6 +104,13 @@ const App = () => {
                     </div>
                     <div className="col-md-2"></div>
                 </div>
+                
+                <div className="buttonContainer text-center m-4">
+                    <button id="mainButton" type="button" class="btn btn-warning">Want To Attend?</button>
+                </div>
+                
+            </section>
+            <section>
             </section>
 
             <footer>
