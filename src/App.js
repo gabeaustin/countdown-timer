@@ -68,22 +68,21 @@ const App = () => {
     <div>
         <section className="timer-container">
             <section className="timer">
-                <div className="row">
-                    <div className="col-md-4"></div>
-                    <div className="timerIconAndText border border-warning justify-content-md-center pt-5 col-md-4">
-                        <span>
-                            <FontAwesomeIcon icon={faClock} className="timer-icon" />
-                            <h2 className="countdownTimer">Demo Day Is Coming</h2>
-                            <p>Countdown to Innovate Birmingham's Cohort 13 Spring Demo Day</p>
-                        </span>
-                    </div>
-                    <div className="col-md-4"></div>
-                </div>
-
-                <div className="timerDaysCountdownContainer row border border-default">
                     <div className="col-md-3"></div>
-                    <div className="timerDaysCountdown border border-white pt-2 col-md-6 d-flex p-2 bd-highlight">
-                        <section className="mx-auto">
+                    <div className="timerIconAndText pt-6 col-md-4">
+                        <div>
+                            <FontAwesomeIcon icon={faClock} className="timer-icon" />
+                            <div>
+                                <h1 className="mainText my-3 mb-4">Countdown to Demo Day!</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-3"></div>
+
+                <div className="timerDaysCountdownContainer row">
+                    <div className="col-md-2"></div>
+                    <div className="timerDaysCountdown col-md-7 d-flex p-2 mx-5 bd-highlight border border-white">
+                        <section className="m-auto">
                             <p className="dateNum text-center">{ timerDays }</p>
                             <div className="dateWords text-center">Days</div>
                         </section>
@@ -103,7 +102,7 @@ const App = () => {
                             <div className="dateWords text-center">Seconds</div>
                         </section>
                     </div>
-                    <div className="col-md-3"></div>
+                    <div className="col-md-2"></div>
                 </div>
             </section>
 

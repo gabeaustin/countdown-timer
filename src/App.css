@@ -4,6 +4,8 @@
 
 .timer-container {
     background-image: url("./images/timer-blk-guy.jpeg");
+    min-height: 100vh;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,17 +18,17 @@ body {
 }
 
 .timer {
-    border: solid pink 5px;
     background-color: rgba(0, 0, 0, 0.60);
+    min-height: 100vh;
+    width: 100%;
 }
 
-/* .timer div:first-child { */
 .timerIconAndText {
     text-align: center;
     color: #f8f8f8;
+    margin: auto;
 }
 
-/* dont change */
 .timer-icon {
     font-size: 8em;
     transform: rotateY(180deg);
@@ -42,18 +44,19 @@ body {
     align-items: center;
     align-content: center;
     border-radius: 1em;
+    margin-left: 2em;
 }
 
 .dateNum {
-    font-size: 5em;
-    color: red;
-    border: 1px solid black;
+    font-size: 6em;
     margin: 0.4em;
 }
 
 .dateWords {
-    color: hotpink;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin: 0.4em;
-    border: 1px solid yellowgreen;
+}
+
+.mainText {
+    white-space: nowrap;
 }
