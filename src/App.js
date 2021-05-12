@@ -12,7 +12,7 @@ const App = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date("April 16, 2021 11:00:00").getTime();
+        const countdownDate = new Date("October 22, 2022 00:00:00").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -105,9 +105,9 @@ const App = () => {
                     <div className="col-md-2"></div>
                 </div>
                 
-                <div className="buttonContainer text-center m-4">
+                {/* <div className="buttonContainer text-center m-4">
                     <button id="mainButton" type="button" className="btn btn-warning btn-lg">Want To Attend?</button>
-                </div>
+                </div> */}
             </section>
 
             <footer>
