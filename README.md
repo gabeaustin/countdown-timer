@@ -1,18 +1,15 @@
-# Countdown Timer
+# [Countdown Timer](http://www.myboygabe.com/projects/countdown-timer)
 
 ### :brain: &nbsp;&nbsp; Purpose
 
-This is a countdown timer that I created using ReactJS and Bootstrap. This countdown timer gives a visual cue to show when the [Innovate Birmingham]("https://www.innovatebham.com") Cohort 13 has their Demo Day. The Demo Day is Friday, April 16th from 11:00 am - 1:00 pm CST.
-<br/>
-
-Here is the registration [link](https://www.eventbrite.com/e/146479860205) to view the VIRTUAL Spring 2021 Demo Day! See you there!!
+This is a countdown timer that I created using React and Bootstrap. You can see the seconds tick down to special date.
 
 ### Tools used
 
+:heavy_check_mark: &nbsp;&nbsp; ReactJS
 :heavy_check_mark: &nbsp;&nbsp; Bootstrap &nbsp;
 :heavy_check_mark: &nbsp;&nbsp; Font Awesome &nbsp;
 :heavy_check_mark: &nbsp;&nbsp; Google Fonts &nbsp;
-:heavy_check_mark: &nbsp;&nbsp; ReactJS
 
 
 <br/>
