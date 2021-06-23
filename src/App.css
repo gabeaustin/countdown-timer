@@ -70,13 +70,3 @@ body {
 #mainButton {
     border-radius: 0em;
 }
-
-footer a {
-    color: #FFC108;
-    background-color: #242424;
-}
-
-footer a:hover {
-    color: #fff;
-    text-decoration: none;
-}
