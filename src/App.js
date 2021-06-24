@@ -70,11 +70,11 @@ const App = () => {
       <section className="timer-container">
         <section className="timer">
           <div className="col-md-3"></div>
-          <div className="timerIconAndText pt-6 col-md-4">
+          <div className="timerIconAndText pt-4 col-md-5 text-center">
             <div>
               <FontAwesomeIcon icon={faClock} className="timer-icon" />
               <div>
-                <h1 className="mainText my-3 mb-4">Countdown to Demo Day!</h1>
+                <h1 className="mainText my-3 mb-4">Countdown to my Birthday!</h1>
               </div>
             </div>
           </div>
@@ -106,12 +106,10 @@ const App = () => {
             <div className="col-md-2"></div>
           </div>
 
-          <div className="buttonContainer text-center m-4">
-              Countdown Date
-              10/22/2021
+          <div className="text-center mt-4 h2">
+            Countdown Date <br/> 10/22/2021
           </div>
         </section>
-
       </section>
     </div>
   );
