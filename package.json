@@ -1,5 +1,6 @@
 {
   "name": "countdown-timer",
+  "homepage": "http://www.myboygabe.com/projects/countdown-timer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
